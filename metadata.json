@@ -1,0 +1,8 @@
+{
+  "name": "Remix OpenMausBot JARVIS Mission Control",
+  "description": "2026 JARVIS AI OS executive mission control cockpit for OpenMausBot with real-time 7-agent telemetry, OM-7 Arc Core oscilloscope, dual-mode CLI/reasoning stream, and Karpathy RAG memory vault.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
