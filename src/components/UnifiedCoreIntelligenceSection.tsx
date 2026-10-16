@@ -432,25 +432,24 @@ export const UnifiedCoreIntelligenceSection: React.FC<UnifiedCoreIntelligenceSec
                 <div className="absolute inset-0 rounded-full opacity-35 bg-[radial-gradient(circle_at_center,rgba(255,138,31,0.5)_0%,transparent_70%)] animate-[pulse_4s_ease-in-out_infinite]" />
               </div>
 
-              {/* Layer 5.5: PHOTOREALISTIC HOLOGRAPHIC MALE CYBERNETIC AI FACE IN THE MIDDLE */}
+              {/* Layer 5.5: CYBERNETIC NEURAL HEAD & OVERHEAD LASER PROBES */}
               <div className="absolute inset-4 sm:inset-5 flex items-center justify-center z-10 overflow-hidden rounded-full pointer-events-auto">
                 <CyberneticAiMaleFace isBurst={isCoreBurst} />
               </div>
 
-              {/* Layer 6: TOP TACTICAL HUD EYEBROW */}
-              <div className="relative z-20 flex flex-col items-center pt-2 pointer-events-none">
-                <div className="flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-black/80 border border-[#ff8a1f]/60 backdrop-blur-md shadow-[0_0_12px_rgba(255,138,31,0.4)]">
-                  <span className="w-1.5 h-1.5 rounded-full bg-[#ff8a1f] animate-ping" />
+              {/* Layer 6: TOP TACTICAL HUD EYEBROW (Floating cleanly above) */}
+              <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center pointer-events-none">
+                <div className="flex items-center gap-1.5 px-3 py-0.5 rounded-full bg-black/90 border border-[#ff8a1f]/70 backdrop-blur-md shadow-[0_0_12px_rgba(255,138,31,0.5)]">
+                  <span className="w-1.5 h-1.5 rounded-full bg-[#00f0ff] animate-ping" />
                   <span className="font-mono text-[9px] sm:text-[10px] text-[#ffb259] font-bold tracking-[0.2em] uppercase">
                     UNIFIED INTELLIGENCE
                   </span>
                 </div>
               </div>
 
-              {/* Layer 7: BOTTOM TACTICAL CORE BADGE */}
-              <div className="relative z-20 flex flex-col items-center pb-2 pointer-events-none">
-                {/* Sleek Minimal AI CORE Tag leaving face unobstructed */}
-                <div className="flex items-center gap-2 px-3 py-1 rounded-full bg-black/80 border border-[#ff8a1f]/60 backdrop-blur-md shadow-[0_0_16px_rgba(255,138,31,0.5)]">
+              {/* Layer 7: BOTTOM TACTICAL CORE BADGE (Floating cleanly below) */}
+              <div className="absolute -bottom-3.5 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center pointer-events-none whitespace-nowrap">
+                <div className="flex items-center gap-2 px-3.5 py-1 rounded-full bg-black/90 border border-[#ff8a1f]/70 backdrop-blur-md shadow-[0_0_18px_rgba(255,138,31,0.6)]">
                   <span className="relative flex h-2 w-2">
                     <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#46e39a] opacity-80" />
                     <span className="relative inline-flex rounded-full h-2 w-2 bg-[#46e39a]" />
@@ -459,7 +458,7 @@ export const UnifiedCoreIntelligenceSection: React.FC<UnifiedCoreIntelligenceSec
                     AI CORE
                   </span>
                   <span className="text-neutral-500 font-mono text-[9px]">|</span>
-                  <span className="text-[9px] font-mono text-[#e8c27a] font-medium tracking-wider">
+                  <span className="text-[9px] font-mono text-[#00f0ff] font-medium tracking-wider">
                     SENTIENT OM-7
                   </span>
                 </div>
